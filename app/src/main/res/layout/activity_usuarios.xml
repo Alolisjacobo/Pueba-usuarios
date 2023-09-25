@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+
+</data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsuariosActivity"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Lista" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Crear/Editar" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentContainerUsuarios">
+    </FrameLayout>
+
+</LinearLayout>
+</layout>
